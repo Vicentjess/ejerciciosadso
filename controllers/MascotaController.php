@@ -10,7 +10,7 @@ class MascotaController {
     public function __construct() {
         $this->mascotaModel = new Mascota();
         $this->razaModel = new Raza();
-    }
+    } 
 
     public function index() {
         $mascotas = $this->mascotaModel->getAll();
